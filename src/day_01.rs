@@ -63,6 +63,6 @@ mod tests {
 
 	#[test]
 	fn test_part_2() {
-		assert_eq!(part_1(get_input_file("inputs/day_01/input.txt")), 1543);
+		assert_eq!(part_2(get_input_file("inputs/day_01/input.txt")), 1543);
 	}
 }

@@ -50,12 +50,12 @@ fn part_2(input: &Vec<String>) -> u32 {
 
 pub fn main() {
 	println!(
-		"Distance: {}",
+		"Day 2.1: {}",
 		part_1(&get_input_file("inputs/day_02/input.txt"))
 	);
 
 	println!(
-		"Distance: {}",
+		"Day 2.2: {}",
 		part_2(&get_input_file("inputs/day_02/input.txt"))
 	);
 }

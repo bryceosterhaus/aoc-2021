@@ -85,12 +85,12 @@ fn part_2(input: Vec<String>) -> i32 {
 
 pub fn main() {
 	println!(
-		"Power Consumption: {}",
+		"Day 3.1: {}",
 		part_1(get_input_file("inputs/day_03/input.txt"))
 	);
 
 	println!(
-		"Power Consumption: {}",
+		"Day 3.2: {}",
 		part_2(get_input_file("inputs/day_03/input.txt"))
 	);
 }

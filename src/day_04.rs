@@ -129,9 +129,9 @@ fn lose_bingo(numbers: Vec<usize>, mut boards: Vec<BingoBoard>) -> usize {
 pub fn main() {
 	let (numbers, boards) = get_numbers_and_boards(&"inputs/day_04/input.txt");
 	let score = win_bingo(numbers.clone(), boards.clone());
-	println!("We have a winner! Score {}", score);
+	println!("Day 4.1: {}", score);
 	let score = lose_bingo(numbers, boards);
-	println!("We have a loser! Score {}", score);
+	println!("Day 4.2: {}", score);
 }
 
 #[cfg(test)]
